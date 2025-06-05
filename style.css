@@ -64,7 +64,7 @@
     background-color: white;
     top: 50px;
     left: 103px;
-    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 
