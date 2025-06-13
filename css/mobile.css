@@ -1,0 +1,66 @@
+@media (max-width:860px) {
+
+    .viewport {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-image: url(../img/bg-mobile.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .viewport .container-img {
+        display: none;
+    }
+
+    .container-section {
+        position: relative;
+        top: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-section .balao {
+        position: absolute;
+        left: 87px;
+        top: 323px;
+        width: 160px;
+
+    }
+
+    .balao p {
+        font-size: 16px;
+    }
+
+    .balao p span {
+        font-size: 21px;
+    }
+
+    .balao::before {
+        display: none;
+    }
+
+    .container-section .grafico {
+        width: 330px;
+    }
+
+    .container-section .armazenamento {
+        width: 330px;
+    }
+
+    .grafico .container-barra {
+        width: 200px;
+    }
+
+    .grafico .container-barra .barra {
+        width: 75%;
+    }
+}
